@@ -12,8 +12,8 @@ optional arguments:
   -u URL, --url URL     URL for the video you want to download
   
   -f FILENAME, --filename FILENAME
-  
-                        Filename including the path
+                        (Filename including the path)
+                        
   -d, --download        Downloads the video
   
   -l, --link            Get link to the downloadable video stream
