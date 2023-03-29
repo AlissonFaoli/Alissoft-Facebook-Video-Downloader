@@ -163,7 +163,6 @@ class WindowMode:
 		self.btn_download['state'] = 'disabled'
 
 		while self.video.progress != 100:
-			print(self.video.progress)
 			self.pg_bar['value'] = self.video.progress
 			self.root.update_idletasks()
 
