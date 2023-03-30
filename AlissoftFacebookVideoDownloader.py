@@ -156,7 +156,7 @@ class WindowMode:
 
 	def press_download(self):
 		t1 = threading.Thread(target=self.video.download)
-		t1.setDaemon = True
+		t1.setDaemon(True)
 		t1.start()
 		self.pg_bar = ttk.Progressbar(self.root, orient='horizontal', length=580, mode='determinate')
 		self.pg_bar.place(x=10, y=120)
