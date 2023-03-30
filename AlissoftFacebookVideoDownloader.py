@@ -20,6 +20,7 @@
 
 import argparse
 import requests
+import urllib
 from binascii import unhexlify as unhex
 import os
 import datetime
@@ -30,7 +31,7 @@ from tkinter import filedialog
 from tkinter import messagebox
 import webbrowser
 import threading
-import urllib
+
 
 
 class FBVDownloader:
