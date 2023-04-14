@@ -1,4 +1,4 @@
-# Alissoft-Facebook-Video-Downloader
+# Alissoft-Facebook-Video-Downloader [deprecated]
 This is a simple and basic multi-platform Facebook Video Downloader wrote in Python
 
 
